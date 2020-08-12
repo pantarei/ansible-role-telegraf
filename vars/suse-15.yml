@@ -16,7 +16,7 @@
 
 _zypper_repository:
   - name: "devel:languages:go"
-    repo: "http://download.opensuse.org/repositories/devel:languages:go/openSUSE_Leap_15.1/"
+    repo: "http://download.opensuse.org/repositories/devel:languages:go/openSUSE_Leap_15.2"
     state: "present"
 
 _zypper:
