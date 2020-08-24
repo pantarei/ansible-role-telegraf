@@ -48,9 +48,9 @@
   ignore_errors: true
   tags: telegraf
 
-- name: systemctl start telegraf
+- name: systemctl start telegraf.service
   service:
-    name: "telegraf"
+    name: "telegraf.service"
     state: "started"
     enabled: true
   changed_when: false
