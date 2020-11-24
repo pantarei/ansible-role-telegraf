@@ -1,6 +1,6 @@
 # Ansible Role for Telegraf
 
-[![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-telegraf.svg)](https://travis-ci.com/alvistack/ansible-role-telegraf)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-telegraf/master)](https://gitlab.com/alvistack/ansible-role-telegraf/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-telegraf.svg)](https://github.com/alvistack/ansible-role-telegraf/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-telegraf.svg)](https://github.com/alvistack/ansible-role-telegraf/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.telegraf-blue.svg)](https://galaxy.ansible.com/alvistack/telegraf)
