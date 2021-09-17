@@ -14,9 +14,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-_zypper_repository:
-  - name: "devel:languages:go"
-    repo: "http://download.opensuse.org/repositories/devel:languages:go/openSUSE_Leap_15.2"
+_rpm_key:
+  - key: "http://download.opensuse.org/repositories/devel:/languages:/go/openSUSE_Leap_15.2/repodata/repomd.xml.key"
+    fingerprint: "B619E7E24D0ED061FA14343CAF4CFE4D307D7BF9"
+    state: "present"
+
+_yum_repository:
+  - file: "devel_languages_go"
+    name: "devel_languages_go"
+    description: "The Go Programming Language (openSUSE_Leap_15.2)"
+    baseurl: "http://download.opensuse.org/repositories/devel:languages:go/openSUSE_Leap_15.2"
+    enabled: true
+    priority: "2"
+    module_hotfixes: true
+    gpgcheck: true
+    gpgkey: "http://download.opensuse.org/repositories/devel:/languages:/go/openSUSE_Leap_15.2/repodata/repomd.xml.key"
     state: "present"
 
 _zypper:
